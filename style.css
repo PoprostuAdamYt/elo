@@ -18,7 +18,7 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    background: #121212;
+    background: #8b4726;
 }
 h1, h2, h3, h4, h5, h6, p {
     color: white;
@@ -31,11 +31,11 @@ button {
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#008080), to(#00008B));
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b4726), to(#8b4726));
     box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
 }
 ::-webkit-scrollbar-track {
-    background: linear-gradient(to right, #201c29, #201c29 1px, #100e17 1px, #100e17);
+    background: linear-gradient(to right, #8b4726, #8b4726 1px, #8b4726 1px, #8b4726);
 }
 
 .max-width {
@@ -53,7 +53,7 @@ button {
 }
 .navbar.sticky {
     padding: 15px 0;
-    background: #00008B;
+    background: #8b4726;
 }
 .navbar .max-width {
     display: flex;
@@ -67,7 +67,7 @@ button {
     text-decoration: none;
 }
 .navbar .logo a span {
-    color: #00008B;
+    color: #8b4726;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -86,7 +86,7 @@ button {
     text-decoration: none;
 }
 .navbar .menu li a:hover {
-    color: #00008B;
+    color: #8b4726;
 }
 .navbar.sticky .menu li a:hover {
     color: #fff;
@@ -180,7 +180,7 @@ button {
     font-weight: 500;
 }
 .intro-text h1 span {
-    color: #00008B;
+    color: #8b4726;
 }
 
 .intro-text p {
@@ -192,9 +192,9 @@ button {
     padding: 50px 0px 0px 150px;
 }
 .invite-epicbot {
-    border: 2px solid #00008B;
+    border: 2px solid #8b4726;
     background: transparent;
-    color: #00008B;
+    color: #8b4726;
     width: 170px;
     height: 50px;
     cursor: pointer;
@@ -382,7 +382,7 @@ button {
     transform: translateY(-5px);
 }
 .vote-epicbot-lmfao button:hover:before {
-    content: "Click Me!";
+    content: "Kliknij tutaj!";
 }
 .vote-epicbot-lmfao button:hover span {
     display: none;
